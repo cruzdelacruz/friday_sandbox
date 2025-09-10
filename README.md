@@ -2,7 +2,7 @@
 
 ### Description:
 
-A simple tempalte for a python project with a cli.
+A simple template for a python project with a cli.
 
 **/src**          contains the main cli.py entry point<br>
 **/src/command**    contains one command script to start but you can add more, all you need to do is register each command in the cli entrypoint<br>

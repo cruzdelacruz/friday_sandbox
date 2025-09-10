@@ -25,8 +25,14 @@ def add_subparser(subparsers):
     parser.add_argument(
         "-s",
         "--size",
-        required=True,
+        required=False,
         help="Size of your concentrix hexagon"
+    )
+    parser.add_argument(
+        "-n",
+        "--name",
+        required=False,
+        help="A name"
     )
     parser.set_defaults(func=run)
 def run(args):

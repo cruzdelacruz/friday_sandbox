@@ -52,3 +52,18 @@ def run(args):
 ```
     pip install -e .
 ```
+
+### Example Output
+```
+(.venv) PS D:\VisualStudio\Python\public_projects\friday_sandbox> sandbox-cli -h
+usage: sandbox-cli [-h] {print_hello} ...
+
+Sandbox CLI
+
+positional arguments:
+  {print_hello}
+
+options:
+  -h, --help     show this help message and exit
+(.venv) PS D:\VisualStudio\Python\public_projects\friday_sandbox> 
+```

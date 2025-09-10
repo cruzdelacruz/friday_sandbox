@@ -1,0 +1,2 @@
+[console_scripts]
+sandbox-cli = friday_package.cli:main
